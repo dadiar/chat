@@ -1,0 +1,85 @@
+/* Add your custom styles based on the school's design preferences */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #0D47A1;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.chat-container {
+  display: flex;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #F5F5F5;
+  padding: 20px;
+}
+
+.room-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.room-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.chat {
+  flex: 1;
+  background-color: #fff;
+}
+
+.chat-header {
+  background-color: #0D47A1;
+  color: #fff;
+  padding: 10px;
+}
+
+.chat-messages {
+  padding: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.message-input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.send-button {
+  margin-left: 10px;
+  background-color: #0D47A1;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
